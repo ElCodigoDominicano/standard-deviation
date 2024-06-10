@@ -16,6 +16,7 @@ def standard_deviation(data: list[int | float]) -> int | float:
     
     Author: AERivas
     Date: 06/10/2024"""
+    import math
     
     sum_data = sum(data)
     len_data = len(data)
