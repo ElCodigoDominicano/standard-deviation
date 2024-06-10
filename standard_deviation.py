@@ -1,17 +1,22 @@
 def standard_deviation(data: list[int | float]) -> int | float:
-    """Find the standard deviation from a list of integers.
+    """RETURNS the standard deviation from a list of integers.
     
     got inspired to just "Not search for a function." but
     "To search for its formula and build a function based
-    on instructions." 
+    on lectures explaining the formula." 
 
     instructions obtained from watching 2 very informative 
     youtubers on YouTube @SirBernieReyes and @TheOrganicChemistryTutor 
     their breakdown and explaination on Variance and Standard Deviation.
+
+    *originally sparked by a memory, working at a distribution
+    in the freezer. One co-worker encouraged me to learn about 
+    statistics, atleast the basics.. this was during the pandemic.
+    never to late.
     
     Author: AERivas
-    Date: 06/10/2024
-    """
+    Date: 06/10/2024"""
+    
     sum_data = sum(data)
     len_data = len(data)
     mean_data = sum_data / len_data
