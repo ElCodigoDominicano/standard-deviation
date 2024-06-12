@@ -17,8 +17,6 @@ def standard_deviation(data: list[int | float], sample_deviation=False) -> int |
     Author: AERivas
     Date: 06/10/2024 Update: 06/11/2024
     """
-    import math
-
     sum_data = sum(data)
     len_data = len(data)
     mean_data = sum_data / len_data
@@ -28,4 +26,4 @@ def standard_deviation(data: list[int | float], sample_deviation=False) -> int |
     population_standard_deviation = sum_of_squared_differences / (len_data - 1)
     sample_standard_deviation = sum_of_squared_differences / len_data
     result = population_standard_deviation if not sample_deviation else sample_standard_deviation  
-    return math.sqrt(result)
+    return result ** 0.5
