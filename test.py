@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 
 
-class SampleDeviationTest(unittest.TestCase):
+class StandardDeviationTests(unittest.TestCase):
 
     
     def test_sample_deviation(self):
